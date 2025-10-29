@@ -8,6 +8,7 @@
     "packages/*"
   ],
   "scripts": {
+    "build": "yarn workspaces run build",
     "example": "tsx examples/index.ts",
     "retype": "cd docs && retype start",
     "test": "yarn node --experimental-vm-modules $(yarn bin jest)"
