@@ -1,0 +1,16 @@
+{
+  "name": "@datapackjs/core",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsx --watch ./src/index.ts"
+  },
+  "dependencies": {
+    "zip-stream": "^7.0.2"
+  },
+  "devDependencies": {
+    "@types/zip-stream": "^7.0.0"
+  }
+}
