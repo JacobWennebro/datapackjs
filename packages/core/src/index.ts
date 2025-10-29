@@ -1,3 +1,4 @@
-export * from './src/datapack'
-export * from './src/mc-function'
-export * from './src/enums'
+export * from './datapack'
+export * from './mc-function'
+export * from './enums'
+export * from './types'

@@ -1,6 +1,4 @@
-import { Effect, EffectDuration, Entity } from "@datapackjs/core";
-import { TargetSelector } from "@datapackjs/core/types";
-import { ObjectiveType } from "@datapackjs/core/types/scoreboard";
+import { Effect, EffectDuration, Entity, TargetSelector } from "@datapackjs/core";
 
 export function summon(entity: Entity, x: Number, y: Number, z: Number, nbt: object) {
   return `summon minecraft:${entity} ${x} ${y} ${z} ${JSON.stringify(nbt)}`

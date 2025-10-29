@@ -1,6 +1,4 @@
-import { Datapack, MCFunction } from "@datapackjs/core"
-import { CommandResolvable, MCFunctionFactory } from "@datapackjs/core/types/internal";
-import { ObjectiveType } from "@datapackjs/core/types/scoreboard";
+import { CommandResolvable, Datapack, MCFunction, MCFunctionFactory, ObjectiveType } from "@datapackjs/core"
 
 export class MCEventFunction implements MCFunction {
 

@@ -15,7 +15,7 @@ export type ObjectiveType =
   ObjectiveTypeTeamKill |
   ObjectiveTypeUsed
 
-export type ObjectiveTypeStandalone =
+type ObjectiveTypeStandalone =
   | 'air'
   | 'armor'
   | 'deathCount'
@@ -28,19 +28,19 @@ export type ObjectiveTypeStandalone =
   | 'trigger'
   | 'xp'
 
-export type ObjectiveTypeKilledByTeam = `killedByTeam.${TeamColor}`;
-export type ObjectiveTypeTeamKill = `teamkill.${TeamColor}`;
-export type ObjectiveTypeBroken = `minecraft.broken:minecraft.${Block}`;
-export type ObjectiveTypeMined = `minecraft.mined:minecraft.${Block}`;
-export type ObjectiveTypeCrafted = `minecraft.crafted:minecraft.${Item}`;
-export type ObjectiveTypeDropped = `minecraft.dropped:minecraft.${Item}`;
-export type ObjectiveTypePickedUp = `minecraft.picked_up:minecraft.${Item}`;
-export type ObjectiveTypeUsed = `minecraft.used:minecraft.${Item}`;
-export type ObjectiveTypeKilled = `minecraft.killed:minecraft.${Entity}`;
-export type ObjectiveTypeKilledBy = `minecraft.killed_by:minecraft.${Entity}`;
-export type ObjectiveTypeCustom = `minecraft.custom:minecraft.${Custom}`;
+type ObjectiveTypeKilledByTeam = `killedByTeam.${TeamColor}`;
+type ObjectiveTypeTeamKill = `teamkill.${TeamColor}`;
+type ObjectiveTypeBroken = `minecraft.broken:minecraft.${Block}`;
+type ObjectiveTypeMined = `minecraft.mined:minecraft.${Block}`;
+type ObjectiveTypeCrafted = `minecraft.crafted:minecraft.${Item}`;
+type ObjectiveTypeDropped = `minecraft.dropped:minecraft.${Item}`;
+type ObjectiveTypePickedUp = `minecraft.picked_up:minecraft.${Item}`;
+type ObjectiveTypeUsed = `minecraft.used:minecraft.${Item}`;
+type ObjectiveTypeKilled = `minecraft.killed:minecraft.${Entity}`;
+type ObjectiveTypeKilledBy = `minecraft.killed_by:minecraft.${Entity}`;
+type ObjectiveTypeCustom = `minecraft.custom:minecraft.${Custom}`;
 
-export type Custom =
+type Custom =
   | 'animals_bred'
   | 'aviate_one_cm'
   | 'bell_ring'
@@ -118,7 +118,7 @@ export type Custom =
   | 'walk_one_cm'
   | 'walk_under_water_one_cm';
 
-export type TeamColor =
+type TeamColor =
   | 'aqua'
   | 'black'
   | 'blue'
