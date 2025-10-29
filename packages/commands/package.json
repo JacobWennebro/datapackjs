@@ -1,11 +1,20 @@
 {
   "name": "@datapackjs/commands",
   "version": "0.0.3",
+  "author": {
+    "name": "Jacob Wennebro",
+    "email": "jacob@wennebro.com",
+    "url": "https://wennebro.com"
+  },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "license": "GPL-3.0-only",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@datapackjs/core": "*"
   },
   "files": [
     "dist/*",

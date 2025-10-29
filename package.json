@@ -9,6 +9,7 @@
   ],
   "scripts": {
     "build": "yarn workspaces run build",
+    "clean": "yarn workspaces run clean",
     "example": "tsx examples/index.ts",
     "retype": "cd docs && retype start",
     "test": "yarn node --experimental-vm-modules $(yarn bin jest)"

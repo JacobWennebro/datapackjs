@@ -14,12 +14,14 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "moduleResolution": "node",
-    "outDir": "./dist",
-    "rootDir": "packages",
     "declaration": true,
     "sourceMap": true,
     "removeComments": false
   },
   "include": ["packages/**/*.ts"],
+  "references": [
+    { "path": "./packages/core" },
+    { "path": "./packages/commands" }
+  ],
   "exclude": ["node_modules", "**/*.spec.ts"]
 }

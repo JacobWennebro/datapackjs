@@ -1,19 +1,28 @@
 {
   "name": "@datapackjs/core",
   "version": "0.0.3",
+  "author": {
+    "name": "Jacob Wennebro",
+    "email": "jacob@wennebro.com",
+    "url": "https://wennebro.com"
+  },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
   "license": "GPL-3.0-only",
   "scripts": {
     "dev": "tsx --watch ./src/index.ts",
-    "build": "tsc"
+    "build": "tsc",
+    "clean": "rm -rf dist"
   },
   "dependencies": {
     "zip-stream": "^7.0.2"
   },
   "devDependencies": {
     "@types/zip-stream": "^7.0.0"
+  },
+  "exports": {
+    "./*": "./src/*"
   },
   "files": [
     "dist/*",
