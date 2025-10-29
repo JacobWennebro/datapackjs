@@ -1,5 +1,11 @@
 # @datapackjs/core
 
+## 0.0.3
+
+### Patch Changes
+
+- Fixed issue of types not exporting properly
+
 ## 0.0.2
 
 ### Patch Changes
