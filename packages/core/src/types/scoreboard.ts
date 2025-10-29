@@ -1,5 +1,5 @@
+import { Entity } from "../enums";
 import { Block } from "./block";
-import { Entity } from "../enums/entity";
 import { Item } from "./item";
 
 export type ObjectiveType =
