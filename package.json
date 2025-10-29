@@ -1,8 +1,7 @@
 {
   "name": "datapackjs",
-  "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT",
+  "license": "GPL-3.0-only",
   "private": true,
   "type": "module",
   "workspaces": [
@@ -10,9 +9,11 @@
   ],
   "scripts": {
     "example": "tsx examples/index.ts",
+    "retype": "cd docs && retype start",
     "test": "yarn node --experimental-vm-modules $(yarn bin jest)"
   },
   "dependencies": {
+    "@changesets/cli": "^2.29.7",
     "tsx": "^4.20.6"
   },
   "devDependencies": {

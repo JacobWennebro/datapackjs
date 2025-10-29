@@ -4,7 +4,7 @@ import { effect, scoreboard, summon } from '@datapackjs/commands'
 import { join } from 'path'
 
 const datapack = new Datapack(88, 'craft', 'My pack');
-
+effect.give('@s', Effect.JUMP_BOOST, 3)
 const onApplePickup = MCEventFunction.define('on-apple-pickup', 'minecraft.picked_up:minecraft.apple', [
   'say &aPicked up an apple'
 ]);
