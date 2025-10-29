@@ -1,5 +1,5 @@
-import { Datapack } from "../src/datapack";
-import { MCFunction } from "../src/mc-function";
+import { Datapack } from "../datapack";
+import { MCFunction } from "../mc-function";
 
 export type MCFunctionFactory = (datapack: Datapack) => MCFunction;
 

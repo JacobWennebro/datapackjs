@@ -1,4 +1,4 @@
-import { CommandResolvable, MCFunctionFactory } from "../types/internal";
+import { CommandResolvable, MCFunctionFactory } from "./types/internal";
 import { Datapack } from "./datapack";
 
 export class MCFunction {

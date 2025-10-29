@@ -1,4 +1,4 @@
-import { CommandResolvable, MCFunctionFactory, Transformer } from "../types/internal";
+import { CommandResolvable, MCFunctionFactory, Transformer } from "./types/internal";
 import { DatapackJSError } from "./error";
 import { MCFunction } from "./mc-function";
 import { isSafeDirectoryName } from "./utility";
