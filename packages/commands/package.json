@@ -1,11 +1,20 @@
 {
   "name": "@datapackjs/commands",
   "version": "0.0.3",
+  "homepage": "https://datapack.js.org",
+  "repository": "github:JacobWennebro/datapackjs",
   "author": {
     "name": "Jacob Wennebro",
     "email": "jacob@wennebro.com",
     "url": "https://wennebro.com"
   },
+  "keywords": [
+    "datapackjs",
+    "datapack.js",
+    "datapack",
+    "datapacks",
+    "minecraft"
+  ],
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "license": "GPL-3.0-only",

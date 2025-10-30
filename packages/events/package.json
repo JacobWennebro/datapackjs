@@ -1,11 +1,20 @@
 {
   "name": "@datapackjs/events",
   "version": "0.0.3",
+  "homepage": "https://datapack.js.org",
+  "repository": "github:JacobWennebro/datapackjs",
   "author": {
     "name": "Jacob Wennebro",
     "email": "jacob@wennebro.com",
     "url": "https://wennebro.com"
   },
+  "keywords": [
+    "datapackjs",
+    "datapack.js",
+    "datapack",
+    "datapacks",
+    "minecraft"
+  ],
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
