@@ -1,5 +1,11 @@
 # @datapackjs/core
 
+## 0.0.4
+
+### Patch Changes
+
+- Updated NPM metadata in package.json
+
 ## 0.0.3
 
 ### Patch Changes

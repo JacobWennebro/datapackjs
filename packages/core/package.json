@@ -1,7 +1,7 @@
 {
   "name": "@datapackjs/core",
   "description": "Easy to use library for building high-quality Minecraft datapacks in JavaScript or TypeScript.",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "homepage": "https://datapack.js.org",
   "repository": "github:JacobWennebro/datapackjs",
   "author": {
