@@ -1,4 +1,4 @@
-import { Datapack, Effect, Entity } from "@datapackjs/core/dist";
+import { Datapack, Effect, Entity } from "@datapackjs/core";
 import { MCEventFunction } from "@datapackjs/events";
 import { effect, scoreboard, summon } from '@datapackjs/commands'
 import { join } from 'path'
