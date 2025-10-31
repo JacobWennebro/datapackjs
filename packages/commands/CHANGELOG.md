@@ -1,5 +1,14 @@
 # @datapackjs/commands
 
+## 0.0.5
+
+### Patch Changes
+
+- 8000a97: Updated package license to MIT
+- Updated dependencies [8000a97]
+- Updated dependencies [2c24412]
+  - @datapackjs/core@0.0.5
+
 ## 0.0.4
 
 ### Patch Changes

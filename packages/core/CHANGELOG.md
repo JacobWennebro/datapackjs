@@ -1,5 +1,12 @@
 # @datapackjs/core
 
+## 0.0.5
+
+### Patch Changes
+
+- 8000a97: Updated package license to MIT
+- 2c24412: Fixed exports for TS in Core
+
 ## 0.0.4
 
 ### Patch Changes
