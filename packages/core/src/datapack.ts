@@ -4,6 +4,7 @@ import { MCFunction } from "./mc-function";
 import { isSafeDirectoryName } from "./utility";
 import { createWriteStream } from "fs";
 import ZipStream from "zip-stream";
+import { Recipe } from "./recipe";
 
 export class Datapack {
   private functions: Set<MCFunction> = new Set();
@@ -96,6 +97,10 @@ export class Datapack {
     }
 
     this.functions.add(mcfunction);
+  }
+
+  public registerRecipe(recipe: Recipe) {
+
   }
 
   public async build({ output: outputPath }: { output: string }) {

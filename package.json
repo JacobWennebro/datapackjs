@@ -8,7 +8,8 @@
     "packages/*"
   ],
   "scripts": {
-    "build": "yarn workspaces run build",
+    "dev": "tsc --build --watch",
+    "build": "tsc --build",
     "clean": "yarn workspaces run clean",
     "example": "tsx examples/index.ts",
     "retype": "cd docs && retype start",

@@ -2,6 +2,7 @@
   "compilerOptions": {
     "target": "ES2020",
     "module": "ESNext",
+    "moduleResolution": "node",
     "lib": ["ES2020"],
     "strict": true,
     "noImplicitAny": true,
@@ -10,18 +11,26 @@
     "strictBindCallApply": true,
     "noImplicitThis": true,
     "alwaysStrict": true,
+
     "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "moduleResolution": "node",
+
     "declaration": true,
     "sourceMap": true,
-    "removeComments": false
-  },
-  "include": ["packages/**/*.ts"],
-  "references": [
-    { "path": "./packages/core" },
-    { "path": "./packages/commands" }
-  ],
-  "exclude": ["node_modules", "**/*.spec.ts"]
+    "removeComments": false,
+
+    "composite": true,
+    "incremental": true,
+
+    "rootDir": "src",
+    "outDir": "dist",
+
+    "baseUrl": ".",
+    "paths": {
+      "@datapackjs/core": ["packages/core/src"]
+    }
+  }
 }
