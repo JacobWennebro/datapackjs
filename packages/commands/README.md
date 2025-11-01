@@ -2,7 +2,7 @@
   <a href="https://datapack.js.org">
     <img alt="DatapackJS logo" src="https://datapack.js.org/static/logo.svg" height="128">
   </a>
-  <br/><br/>
+  <br/>
   <h1>Datapack.js</h1>
   <a href="https://www.npmjs.com/package/@datapackjs/commands"><img alt="NPM version" src="https://img.shields.io/npm/v/@datapackjs/commands.svg?style=for-the-badge&labelColor=2e2e2e"></a>
   <a href="https://github.com/JacobWennebro/datapackjs/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/npm/l/@datapackjs/commands.svg?style=for-the-badge&labelColor=2e2e2e"></a>
