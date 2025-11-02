@@ -1,3 +1,5 @@
+> Please note that this package is still in its early stages; breaking changes may occur as new versions are released.
+
 <div align="center">
   <a href="https://datapack.js.org">
     <img alt="DatapackJS logo" src="https://datapack.js.org/static/logo.svg" height="128">
