@@ -1,0 +1,13 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "baseUrl": ".",
+    "rootDir": ".",
+    "paths": {
+      "@datapackjs/core": ["packages/core/src"],
+      "@datapackjs/commands": ["packages/commands/src"]
+    }
+  },
+  "include": ["**/*.ts"]
+}

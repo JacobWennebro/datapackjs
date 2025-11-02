@@ -1,4 +1,5 @@
 export * from './datapack'
+export * from './models'
 export * from './mc-function'
 export * from './recipe'
 export * from './enums'
